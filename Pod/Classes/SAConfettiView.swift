@@ -9,7 +9,7 @@
 import UIKit
 import QuartzCore
 
-public class SAConfettiView: UIView {
+public final class SAConfettiView: UIView {
 
     public enum ConfettiType {
         case confetti
@@ -19,7 +19,7 @@ public class SAConfettiView: UIView {
         case image(UIImage)
     }
 
-    var emitter: CAEmitterLayer!
+    public var emitter: CAEmitterLayer!
     public var colors: [UIColor]!
     public var intensity: Float!
     public var type: ConfettiType!
